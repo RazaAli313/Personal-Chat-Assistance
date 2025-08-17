@@ -33,7 +33,7 @@ def chat(oldState:State):
         messages=formatted_messages
    
     )
-    print(f"AI->{response.choices[0].message.content}")
+  
     ai=AIMessage(content=response.choices[0].message.content)
     return {"messages":[ai]}
 
