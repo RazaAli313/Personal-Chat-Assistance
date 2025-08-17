@@ -76,4 +76,4 @@ app=gr.ChatInterface(
 )
 
 
-app.launch(share=True)
+app.launch()
