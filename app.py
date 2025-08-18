@@ -18,7 +18,7 @@ class State(TypedDict):
 llm=Groq(base_url="https://api.groq.com",api_key=os.getenv("GROQ_API_KEY"))
 
 def chat(oldState:State):
-    # user_prompt=oldState['messages'][-1]
+  
     formatted_messages=[]
     role=None
     for message in oldState['messages']:
